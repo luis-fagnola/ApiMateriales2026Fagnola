@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuracion basica y estilos globales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - API Materiales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/site.css">
+</head>
+<body>
+    <!-- Barra de navegacion principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="Inicio.html">API Materiales 2026</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navInicio" aria-controls="navInicio" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navInicio">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Inicio.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Rubros.html">Rubros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Materiales.html">Materiales</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <main class="container py-4">
+        
+        <div class="p-4 p-lg-5 rounded-4 hero-gradient text-white mb-4 shadow-sm">
+            <h1 class="h3 mb-2">Panel de Gestion</h1>
+            <p class="mb-0">Administracion de Rubros, Productos y Materiales.</p>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <a class="text-decoration-none" href="Rubros.html">
+                    <div class="card h-100 shadow-sm border-0 module-card">
+                        <div class="card-body">
+                            <h2 class="h5 card-title mb-2">Rubros</h2>
+                            <p class="card-text text-secondary mb-3">Gestion de categorias con alta, edicion y eliminacion.</p>
+                            <span class="btn btn-outline-primary btn-sm">Abrir modulo</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <a class="text-decoration-none" href="Productos.html">
+                    <div class="card h-100 shadow-sm border-0 module-card">
+                        <div class="card-body">
+                            <h2 class="h5 card-title mb-2">Productos</h2>
+                            <p class="card-text text-secondary mb-3"> productos con estado de eliminado.</p>
+                            <span class="btn btn-outline-primary btn-sm">Abrir modulo</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <a class="text-decoration-none" href="Materiales.html">
+                    <div class="card h-100 shadow-sm border-0 module-card">
+                        <div class="card-body">
+                            <h2 class="h5 card-title mb-2">Materiales</h2>
+                            <p class="card-text text-secondary mb-3">Gestion de materiales vinculados a rubros y precio de costo.</p>
+                            <span class="btn btn-outline-primary btn-sm">Abrir modulo</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="JS/navbar.js"></script>
+</body>
+</html>

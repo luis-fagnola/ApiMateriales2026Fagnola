@@ -1,3 +1,22 @@
+# Build outputs
+bin/
+obj/
+
+# IDE folders
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Prerequisites
 *.d
 
@@ -51,5 +70,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# debug information files
+# Debug information files
 *.dwo
